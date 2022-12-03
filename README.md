@@ -2,7 +2,7 @@
 
 ## Download
 Version: v2.5.12  
-Time: Sat Dec  3 15:46:38 UTC 2022  
+Time: Sat Dec  3 15:59:32 UTC 2022  
 ### universal
 for all android devices  
 - [Mirror](https://ghproxy.com/https://github.com/kaminolee/cfa-build/raw/apks/cfa-2.5.12-kamino-universal-release.apk)  
