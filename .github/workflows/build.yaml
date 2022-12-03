@@ -1,0 +1,36 @@
+name: Modify And Build Clash For Android
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 10 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: "zulu"
+          java-version: 17
+      - name: Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.18
+      - name: Build
+        env:
+          ANDROID_KEYSTORE_DATA: ${{ secrets.ANDROID_KEYSTORE_DATA }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: bash build.sh
+      - name: Upload
+        if: true
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        with:
+          branch: apks
+          folder: apks
