@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.github.kr328.clash.foss",
+  "applicationId": "com.github.kr328.clash.kamino",
   "variantName": "kaminoRelease",
   "elements": [
     {
@@ -12,7 +12,7 @@
       "filters": [],
       "attributes": [],
       "versionCode": 205012,
-      "versionName": "2.5.12.foss",
+      "versionName": "2.5.12.kamino",
       "outputFile": "cfa-2.5.12-kamino-universal-release.apk"
     },
     {
@@ -25,7 +25,7 @@
       ],
       "attributes": [],
       "versionCode": 205012,
-      "versionName": "2.5.12.foss",
+      "versionName": "2.5.12.kamino",
       "outputFile": "cfa-2.5.12-kamino-x86_64-release.apk"
     },
     {
@@ -38,7 +38,7 @@
       ],
       "attributes": [],
       "versionCode": 205012,
-      "versionName": "2.5.12.foss",
+      "versionName": "2.5.12.kamino",
       "outputFile": "cfa-2.5.12-kamino-x86-release.apk"
     },
     {
@@ -51,7 +51,7 @@
       ],
       "attributes": [],
       "versionCode": 205012,
-      "versionName": "2.5.12.foss",
+      "versionName": "2.5.12.kamino",
       "outputFile": "cfa-2.5.12-kamino-armeabi-v7a-release.apk"
     },
     {
@@ -64,7 +64,7 @@
       ],
       "attributes": [],
       "versionCode": 205012,
-      "versionName": "2.5.12.foss",
+      "versionName": "2.5.12.kamino",
       "outputFile": "cfa-2.5.12-kamino-arm64-v8a-release.apk"
     }
   ],
