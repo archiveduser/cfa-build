@@ -22,6 +22,7 @@ cd ..
 echo $CFA_RELEASE | tee last_build
 cp -f README.template.md README.md
 sed -i "s/BUILD_VERSION/${CFA_RELEASE/v/}/g" README.md
+sed -i "s/BUILD_TIME/$(date)/g" README.md
 git config --global user.email "kamino@imea.me"
 git config --global user.name "kamino"
 git add .
