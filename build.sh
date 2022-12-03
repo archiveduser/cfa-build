@@ -18,7 +18,6 @@ echo "keystore.password=${ANDROID_KEYSTORE_PASSWORD}" >> signing.properties
 echo "key.alias=${ANDROID_KEY_ALIAS}" >> signing.properties
 echo "key.password=${ANDROID_KEY_PASSWORD}" >> signing.properties
 ./gradlew app:assembleKaminoRelease
-cp -r app/build/outputs/apk/kamino/release/* ../apks/
 cd ..
 echo $CFA_RELEASE | tee last_build
 cp -f README.template.md README.md
