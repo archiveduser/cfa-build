@@ -1,8 +1,8 @@
 # Build Clash for Android
-
+[cfa.imea.me](https://cfa.imea.me)  
 ## Download
 Version: v2.5.12  
-Time: Sat Dec  3 15:59:32 UTC 2022  
+Time: Sun Dec  4 07:11:09 UTC 2022  
 ### universal
 for all android devices  
 - [Mirror](https://ghproxy.com/https://github.com/kaminolee/cfa-build/raw/apks/cfa-2.5.12-kamino-universal-release.apk)  
@@ -26,3 +26,5 @@ for android virtual machine
 ## Modified
 - dns config
 - package name
+## Source
+[ClashForAndroid](https://github.com/Kr328/ClashForAndroid)  
